@@ -34,6 +34,8 @@
 		C16E77631F0A7F8400359363 /* YWNamePlaceHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YWNamePlaceHolder.swift; path = ClassResources/YWNamePlaceHolder.swift; sourceTree = "<group>"; };
 		C16E77661F0A7FC200359363 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = View.xib; path = View/View.xib; sourceTree = "<group>"; };
 		C16E776A1F0A937E00359363 /* UIViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewEx.swift; path = ClassModifier/UIViewEx.swift; sourceTree = "<group>"; };
+		C16E77A61F0A9D2800359363 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		C16E77A71F0A9E2A00359363 /* YWNamePlaceholder.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = YWNamePlaceholder.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				C16E77611F0A6D3600359363 /* README.md */,
+				C16E77A61F0A9D2800359363 /* LICENSE */,
+				C16E77A71F0A9E2A00359363 /* YWNamePlaceholder.podspec */,
 				C16E77491F0A6C4900359363 /* YWNamePlaceholder */,
 				C16E77541F0A6C4900359363 /* YWNamePlaceholderTests */,
 				C16E77481F0A6C4900359363 /* Products */,
