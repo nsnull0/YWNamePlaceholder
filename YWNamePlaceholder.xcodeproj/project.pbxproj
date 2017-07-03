@@ -10,6 +10,7 @@
 		C16E77511F0A6C4900359363 /* YWNamePlaceholder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16E77471F0A6C4900359363 /* YWNamePlaceholder.framework */; };
 		C16E77561F0A6C4900359363 /* YWNamePlaceholderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16E77551F0A6C4900359363 /* YWNamePlaceholderTests.swift */; };
 		C16E77581F0A6C4900359363 /* YWNamePlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = C16E774A1F0A6C4900359363 /* YWNamePlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C16E77621F0A6D3600359363 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C16E77611F0A6D3600359363 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		C16E77501F0A6C4900359363 /* YWNamePlaceholderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWNamePlaceholderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16E77551F0A6C4900359363 /* YWNamePlaceholderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YWNamePlaceholderTests.swift; sourceTree = "<group>"; };
 		C16E77571F0A6C4900359363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16E77611F0A6D3600359363 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		C16E773D1F0A6C4900359363 = {
 			isa = PBXGroup;
 			children = (
+				C16E77611F0A6D3600359363 /* README.md */,
 				C16E77491F0A6C4900359363 /* YWNamePlaceholder */,
 				C16E77541F0A6C4900359363 /* YWNamePlaceholderTests */,
 				C16E77481F0A6C4900359363 /* Products */,
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16E77621F0A6D3600359363 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
