@@ -8,17 +8,21 @@
 
 import UIKit
 
-class YWNamePlaceHolder: UIView {
+public class YWNamePlaceHolder: UIView {
 
     
-    @IBOutlet weak var contentContainer: UIView!
+    @IBOutlet public weak var contentContainer: UIView!
     
 
-    @IBOutlet weak var textTitle: UILabel!
+    @IBOutlet public weak var textTitle: UILabel!
     
     
-    func initiate() -> YWNamePlaceHolder {
+    public func initiate() -> YWNamePlaceHolder {
         return UINib(nibName: "View", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! YWNamePlaceHolder
+    }
+    
+    public required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
     }
     
 }

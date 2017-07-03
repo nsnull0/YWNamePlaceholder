@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		318BD87687D08D52D18093EA /* Pods_ExampleYWProfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BAFBFA9C513EF9353DFBBD /* Pods_ExampleYWProfile.framework */; };
 		C16E77791F0A996E00359363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16E77781F0A996E00359363 /* AppDelegate.swift */; };
 		C16E777B1F0A996E00359363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16E777A1F0A996E00359363 /* ViewController.swift */; };
 		C16E777E1F0A996E00359363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16E777C1F0A996E00359363 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		C16E77831F0A996E00359363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16E77811F0A996E00359363 /* LaunchScreen.storyboard */; };
 		C16E778E1F0A996E00359363 /* ExampleYWProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16E778D1F0A996E00359363 /* ExampleYWProfileTests.swift */; };
 		C16E77991F0A996E00359363 /* ExampleYWProfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16E77981F0A996E00359363 /* ExampleYWProfileUITests.swift */; };
+		D484BE3BE3A7D410B267432E /* Pods_ExampleYWProfileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBABF2B655E23CE0D490D0AE /* Pods_ExampleYWProfileTests.framework */; };
+		D964BCFC2916DE258112DEF9 /* Pods_ExampleYWProfileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9A922873C4BFB17C1054E1 /* Pods_ExampleYWProfileUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29BAFBFA9C513EF9353DFBBD /* Pods_ExampleYWProfile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleYWProfile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3381F047815988855077D825 /* Pods-ExampleYWProfileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleYWProfileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleYWProfileUITests/Pods-ExampleYWProfileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B9A922873C4BFB17C1054E1 /* Pods_ExampleYWProfileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleYWProfileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A999E0165F873BC453B3DC9D /* Pods-ExampleYWProfileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleYWProfileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleYWProfileTests/Pods-ExampleYWProfileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBABF2B655E23CE0D490D0AE /* Pods_ExampleYWProfileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleYWProfileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16E77751F0A996E00359363 /* ExampleYWProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleYWProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16E77781F0A996E00359363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C16E777A1F0A996E00359363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		C16E77941F0A996E00359363 /* ExampleYWProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleYWProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16E77981F0A996E00359363 /* ExampleYWProfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleYWProfileUITests.swift; sourceTree = "<group>"; };
 		C16E779A1F0A996E00359363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3BD913EAF7EB8FCC547896C /* Pods-ExampleYWProfileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleYWProfileUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleYWProfileUITests/Pods-ExampleYWProfileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D271FE45A258B4289C4B658F /* Pods-ExampleYWProfile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleYWProfile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleYWProfile/Pods-ExampleYWProfile.debug.xcconfig"; sourceTree = "<group>"; };
+		F34043EAA17E0EFF011FDCFF /* Pods-ExampleYWProfile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleYWProfile.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleYWProfile/Pods-ExampleYWProfile.release.xcconfig"; sourceTree = "<group>"; };
+		F760154726195430CD0E1201 /* Pods-ExampleYWProfileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleYWProfileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleYWProfileTests/Pods-ExampleYWProfileTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318BD87687D08D52D18093EA /* Pods_ExampleYWProfile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D484BE3BE3A7D410B267432E /* Pods_ExampleYWProfileTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D964BCFC2916DE258112DEF9 /* Pods_ExampleYWProfileUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		957758E1BFE6CC15F590E11D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29BAFBFA9C513EF9353DFBBD /* Pods_ExampleYWProfile.framework */,
+				BBABF2B655E23CE0D490D0AE /* Pods_ExampleYWProfileTests.framework */,
+				4B9A922873C4BFB17C1054E1 /* Pods_ExampleYWProfileUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C16E776C1F0A996E00359363 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				C16E778C1F0A996E00359363 /* ExampleYWProfileTests */,
 				C16E77971F0A996E00359363 /* ExampleYWProfileUITests */,
 				C16E77761F0A996E00359363 /* Products */,
+				CA1CC59147BBFEE1A2870106 /* Pods */,
+				957758E1BFE6CC15F590E11D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,19 @@
 			path = ExampleYWProfileUITests;
 			sourceTree = "<group>";
 		};
+		CA1CC59147BBFEE1A2870106 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D271FE45A258B4289C4B658F /* Pods-ExampleYWProfile.debug.xcconfig */,
+				F34043EAA17E0EFF011FDCFF /* Pods-ExampleYWProfile.release.xcconfig */,
+				A999E0165F873BC453B3DC9D /* Pods-ExampleYWProfileTests.debug.xcconfig */,
+				F760154726195430CD0E1201 /* Pods-ExampleYWProfileTests.release.xcconfig */,
+				C3BD913EAF7EB8FCC547896C /* Pods-ExampleYWProfileUITests.debug.xcconfig */,
+				3381F047815988855077D825 /* Pods-ExampleYWProfileUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C16E779D1F0A996E00359363 /* Build configuration list for PBXNativeTarget "ExampleYWProfile" */;
 			buildPhases = (
+				DB6812CE37B5B4E1D6A7F4E0 /* [CP] Check Pods Manifest.lock */,
 				C16E77711F0A996E00359363 /* Sources */,
 				C16E77721F0A996E00359363 /* Frameworks */,
 				C16E77731F0A996E00359363 /* Resources */,
+				86E2BD7693F9E2C52D1378A7 /* [CP] Embed Pods Frameworks */,
+				AD23F397F9D358276DD1326C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C16E77A01F0A996E00359363 /* Build configuration list for PBXNativeTarget "ExampleYWProfileTests" */;
 			buildPhases = (
+				69290360E10BE05F38698F59 /* [CP] Check Pods Manifest.lock */,
 				C16E77851F0A996E00359363 /* Sources */,
 				C16E77861F0A996E00359363 /* Frameworks */,
 				C16E77871F0A996E00359363 /* Resources */,
+				DA547071039060AD3D6246DA /* [CP] Embed Pods Frameworks */,
+				1FA36DC49C03506198BAB75D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C16E77A31F0A996E00359363 /* Build configuration list for PBXNativeTarget "ExampleYWProfileUITests" */;
 			buildPhases = (
+				85B0013223524226612356AE /* [CP] Check Pods Manifest.lock */,
 				C16E77901F0A996E00359363 /* Sources */,
 				C16E77911F0A996E00359363 /* Frameworks */,
 				C16E77921F0A996E00359363 /* Resources */,
+				BFF862E94E61BFCC2E26F5CF /* [CP] Embed Pods Frameworks */,
+				BF26BD8293F2ACBF92E9FC1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +306,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FA36DC49C03506198BAB75D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleYWProfileTests/Pods-ExampleYWProfileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69290360E10BE05F38698F59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85B0013223524226612356AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86E2BD7693F9E2C52D1378A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleYWProfile/Pods-ExampleYWProfile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD23F397F9D358276DD1326C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleYWProfile/Pods-ExampleYWProfile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF26BD8293F2ACBF92E9FC1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleYWProfileUITests/Pods-ExampleYWProfileUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFF862E94E61BFCC2E26F5CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleYWProfileUITests/Pods-ExampleYWProfileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA547071039060AD3D6246DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleYWProfileTests/Pods-ExampleYWProfileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB6812CE37B5B4E1D6A7F4E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C16E77711F0A996E00359363 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -321,6 +508,7 @@
 		C16E779B1F0A996E00359363 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -372,6 +560,7 @@
 		C16E779C1F0A996E00359363 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -415,7 +604,9 @@
 		};
 		C16E779E1F0A996E00359363 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D271FE45A258B4289C4B658F /* Pods-ExampleYWProfile.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C3C9T33288;
 				INFOPLIST_FILE = ExampleYWProfile/Info.plist;
@@ -428,7 +619,9 @@
 		};
 		C16E779F1F0A996E00359363 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F34043EAA17E0EFF011FDCFF /* Pods-ExampleYWProfile.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C3C9T33288;
 				INFOPLIST_FILE = ExampleYWProfile/Info.plist;
@@ -441,8 +634,8 @@
 		};
 		C16E77A11F0A996E00359363 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A999E0165F873BC453B3DC9D /* Pods-ExampleYWProfileTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = C3C9T33288;
 				INFOPLIST_FILE = ExampleYWProfileTests/Info.plist;
@@ -456,8 +649,8 @@
 		};
 		C16E77A21F0A996E00359363 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F760154726195430CD0E1201 /* Pods-ExampleYWProfileTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = C3C9T33288;
 				INFOPLIST_FILE = ExampleYWProfileTests/Info.plist;
@@ -471,8 +664,8 @@
 		};
 		C16E77A41F0A996E00359363 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3BD913EAF7EB8FCC547896C /* Pods-ExampleYWProfileUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = C3C9T33288;
 				INFOPLIST_FILE = ExampleYWProfileUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -485,8 +678,8 @@
 		};
 		C16E77A51F0A996E00359363 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3381F047815988855077D825 /* Pods-ExampleYWProfileUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = C3C9T33288;
 				INFOPLIST_FILE = ExampleYWProfileUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -516,6 +709,7 @@
 				C16E779F1F0A996E00359363 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C16E77A01F0A996E00359363 /* Build configuration list for PBXNativeTarget "ExampleYWProfileTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +718,7 @@
 				C16E77A21F0A996E00359363 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C16E77A31F0A996E00359363 /* Build configuration list for PBXNativeTarget "ExampleYWProfileUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +727,7 @@
 				C16E77A51F0A996E00359363 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
