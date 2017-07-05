@@ -20,8 +20,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
+        //Recommended size >= 50
+        let profileName:YWNamePlaceHolder = YWNamePlaceHolder(originLocation: CGPoint(x: 10, y: 10), _withSize: 50, _yourPlaceholder: "Yoseph Wijaya", _fontPlaceHolder: UIFont.boldSystemFont(ofSize: 14.0), _backgroundColor: UIColor.darkGray, _placeHolderTextColor: UIColor.white)
         
-        let profileName:YWNamePlaceHolder = YWNamePlaceHolder(frame: CGRect(x: 10, y: 10, width: 60, height: 60), str: "", font: UIFont.boldSystemFont(ofSize: 0), contentColor: UIColor.red, textColor: UIColor.red)
         
         
 //        let profileName:YWNamePlaceHolder = YWNamePlaceHolder(frame: CGRect(x: 10,y:  10,width: 60,height: 60))
@@ -31,7 +32,7 @@ class ViewController: UIViewController {
         
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

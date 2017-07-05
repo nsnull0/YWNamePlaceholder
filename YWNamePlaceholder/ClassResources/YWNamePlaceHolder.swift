@@ -14,14 +14,14 @@ public class YWNamePlaceHolder: UIView {
         super.init(frame: frame)
     }
     
-    public init(frame: CGRect, str:String, font:UIFont, contentColor:UIColor, textColor: UIColor) {
+    
+    
+    public init(originLocation: CGPoint,_withSize size: CGFloat,_yourPlaceholder str:String,_fontPlaceHolder font:UIFont,_backgroundColor contentColor:UIColor,_placeHolderTextColor textColor: UIColor) {
+        
+        let frame:CGRect = CGRect(x: originLocation.x, y: originLocation.y, width: size, height: size)
         super.init(frame: frame)
         self.backgroundColor = UIColor.clear
         self.translatesAutoresizingMaskIntoConstraints = false
-        
-        guard self.bounds.size.width - 16 > 0 else {
-            return
-        }
         
         setupProperty(str: str, font: font, contentColor: contentColor)
     }
