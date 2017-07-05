@@ -13,14 +13,17 @@ extension UIView {
 
     var asCircularContent:Bool {
         set {
-            self.layer.cornerRadius = 10
+            self.layer.cornerRadius = sqrt(self.bounds.size.width * (self.bounds.size.width / 4))
             self.layer.masksToBounds = newValue
-            self.layer.backgroundColor = UIColor(hue: CGFloat(arc4random() % 256 / 256), saturation: 0.7, brightness: 0.8, alpha: 1.0).cgColor
+            self.layer.backgroundColor = UIColor(hue: CGFloat(arc4random_uniform(360) / 360), saturation: 0.7, brightness: 0.8, alpha: 1.0).cgColor
         }
         
         get {
             return layer.masksToBounds
         }
     }
+    
+    
+    
     
 }

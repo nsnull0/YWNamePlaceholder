@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
     s.platform     = :ios
     s.ios.deployment_target = "9.0"
     s.source       = { :git => "https://github.com/nsnull0/YWNamePlaceholder.git", :tag => "#{s.version}" }
-    s.source_files  = "YWNamePlaceholder/YWNamePlaceholder/*.{swift}"
-    s.resources = "YWNamePlaceholder/View/*.{png,jpeg,jpg,storyboard,xib}"
+    s.source_files  = "YWNamePlaceholder/**/*.{swift}"
     s.framework  = "UIKit"
 
 

@@ -10,19 +10,41 @@ import UIKit
 
 public class YWNamePlaceHolder: UIView {
 
+    public override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
     
-    @IBOutlet public weak var contentContainer: UIView!
+    public init(frame: CGRect, str:String, font:UIFont, contentColor:UIColor, textColor: UIColor) {
+        super.init(frame: frame)
+        self.backgroundColor = UIColor.clear
+        self.translatesAutoresizingMaskIntoConstraints = false
+        
+        guard self.bounds.size.width - 16 > 0 else {
+            return
+        }
+        
+        setupProperty(str: str, font: font, contentColor: contentColor)
+    }
     
-
-    @IBOutlet public weak var textTitle: UILabel!
-    
-    
-    public func initiate() -> YWNamePlaceHolder {
-        return UINib(nibName: "View", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! YWNamePlaceHolder
+    func setupProperty(str:String, font:UIFont, contentColor:UIColor) {
+        
+        let contentContainer: UIView = UIView(frame: CGRect(x: 4, y: 4, width: self.bounds.size.width - 8, height: self.bounds.size.height - 8))
+        let textTitle: UILabel =  UILabel(frame: CGRect(x: (self.bounds.size.width / 2.5)/2, y: (self.bounds.size.width / 2.5)/2, width: self.bounds.size.width - (self.bounds.size.width / 2.5), height: self.bounds.size.height - (self.bounds.size.width / 2.5)))
+        
+        
+        contentContainer.asCircularContent = true
+        textTitle.asTextTitle = "YW"
+        
+        self.addSubview(contentContainer)
+        self.addSubview(textTitle)
+        
+        
     }
     
     public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
-    
+ 
 }
+
+

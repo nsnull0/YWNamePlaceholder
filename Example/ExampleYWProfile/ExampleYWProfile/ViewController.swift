@@ -11,6 +11,7 @@ import YWNamePlaceholder
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var containerView: UIView!
     
     
     
@@ -18,6 +19,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        
+        
+        let profileName:YWNamePlaceHolder = YWNamePlaceHolder(frame: CGRect(x: 10, y: 10, width: 60, height: 60), str: "", font: UIFont.boldSystemFont(ofSize: 0), contentColor: UIColor.red, textColor: UIColor.red)
+        
+        
+//        let profileName:YWNamePlaceHolder = YWNamePlaceHolder(frame: CGRect(x: 10,y:  10,width: 60,height: 60))
+        
+        self.containerView.addSubview(profileName)
         
         
         
