@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "YWNamePlaceholder"
-    s.version      = "0.1"
+    s.version      = "1.0"
     s.summary      = "YWNamePlaceholder Generic Place holder profile"
     s.description  = "Place holder of every empty profile picture. Lightweight circular profile initial for placeholder before adding images"
     s.requires_arc = true
