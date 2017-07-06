@@ -13,21 +13,14 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var containerView: UIView!
     
-    
+    lazy var nameList:[String] = ["Yoseph Wijaya", "Hello world", "seol hyun", "Kucing Meong", "permen Mint", "boom hello world", "long long long long Name"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        //Recommended size >= 50
-        let profileName:YWNamePlaceHolder = YWNamePlaceHolder(originLocation: CGPoint(x: 10, y: 10), _withSize: 50, _yourPlaceholder: "Yoseph Wijaya", _fontPlaceHolder: UIFont.boldSystemFont(ofSize: 14.0), _backgroundColor: UIColor.darkGray, _placeHolderTextColor: UIColor.white)
         
-        
-        
-//        let profileName:YWNamePlaceHolder = YWNamePlaceHolder(frame: CGRect(x: 10,y:  10,width: 60,height: 60))
-        
-        self.containerView.addSubview(profileName)
         
         
         
@@ -39,5 +32,24 @@ class ViewController: UIViewController {
     }
 
 
+}
+
+extension ViewController: UITableViewDelegate, UITableViewDataSource{
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return nameList.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "namePlaceHolderList")
+        
+        cell!.textLabel!.text = nameList[indexPath.row]
+        cell!.accessoryView = YWNamePlaceHolder(originLocation: CGPoint(x: 0, y: 0), _withSize: 50, _yourPlaceholder: nameList[indexPath.row], _fontPlaceHolder: UIFont.boldSystemFont(ofSize: 14.0))
+        
+        return cell!
+        
+    }
+    
 }
 

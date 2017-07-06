@@ -15,7 +15,7 @@ extension UIView {
         set {
             self.layer.cornerRadius = sqrt(self.bounds.size.width * (self.bounds.size.width / 4))
             self.layer.masksToBounds = newValue
-            self.layer.backgroundColor = UIColor(hue: CGFloat(arc4random_uniform(360) / 360), saturation: 0.7, brightness: 0.8, alpha: 1.0).cgColor
+            self.backgroundColor = UIColor(hue: CGFloat(arc4random_uniform(360)) / 360.0, saturation: 0.7, brightness: 0.8, alpha: 1.0)
         }
         
         get {

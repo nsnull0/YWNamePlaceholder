@@ -16,24 +16,26 @@ public class YWNamePlaceHolder: UIView {
     
     
     
-    public init(originLocation: CGPoint,_withSize size: CGFloat,_yourPlaceholder str:String,_fontPlaceHolder font:UIFont,_backgroundColor contentColor:UIColor,_placeHolderTextColor textColor: UIColor) {
+    public init(originLocation: CGPoint,_withSize size: CGFloat,_yourPlaceholder str:String,_fontPlaceHolder font:UIFont) {
         
         let frame:CGRect = CGRect(x: originLocation.x, y: originLocation.y, width: size, height: size)
         super.init(frame: frame)
         self.backgroundColor = UIColor.clear
         self.translatesAutoresizingMaskIntoConstraints = false
         
-        setupProperty(str: str, font: font, contentColor: contentColor)
+        setupProperty(str: str, font: font)
     }
     
-    func setupProperty(str:String, font:UIFont, contentColor:UIColor) {
+    func setupProperty(str:String, font:UIFont) {
         
         let contentContainer: UIView = UIView(frame: CGRect(x: 4, y: 4, width: self.bounds.size.width - 8, height: self.bounds.size.height - 8))
         let textTitle: UILabel =  UILabel(frame: CGRect(x: (self.bounds.size.width / 2.5)/2, y: (self.bounds.size.width / 2.5)/2, width: self.bounds.size.width - (self.bounds.size.width / 2.5), height: self.bounds.size.height - (self.bounds.size.width / 2.5)))
         
         
         contentContainer.asCircularContent = true
-        textTitle.asTextTitle = "YW"
+        textTitle.asTextTitle = str
+        textTitle.setAutoFont = font
+        textTitle.baselineAdjustment = UIBaselineAdjustment.alignCenters
         
         self.addSubview(contentContainer)
         self.addSubview(textTitle)

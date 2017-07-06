@@ -14,14 +14,32 @@ extension UILabel {
         set{
             self.textColor = UIColor.white
             self.textAlignment = .center
-            self.font = UIFont.boldSystemFont(ofSize: sqrt(pow(self.bounds.size.width, 2.0)/2))
             self.adjustsFontSizeToFitWidth = true
-            self.text = newValue
+            
+            let stringSplit = newValue.components(separatedBy: " ")
+            
+            var strResult = ""
+            for str in stringSplit{
+                let strProcess = "\(str.characters.first!)"
+                
+                strResult = strResult + strProcess
+                
+            }
+            
+            self.text = strResult.uppercased()
         }
         
         get {
             return self.text!
         }
     }
-
+    
+    var setAutoFont:UIFont{
+        set {
+            self.font = newValue.withSize(sqrt(pow(self.bounds.size.width, 2.0)/2))
+        }
+        get {
+            return self.font
+        }
+    }
 }
