@@ -1,4 +1,9 @@
 # YWNamePlaceHolder
+
+[![Version](https://img.shields.io/cocoapods/v/YWNamePlaceholder.svg?style=flat)](https://cocoapods.org/pods/YWNamePlaceholder)
+[![License](https://img.shields.io/cocoapods/l/YWNamePlaceholder.svg?style=flat)](https://cocoapods.org/pods/YWNamePlaceholder)
+[![Platform](https://img.shields.io/cocoapods/p/YWNamePlaceholder.svg?style=flat)](https://cocoapods.org/pods/YWNamePlaceholder)
+
 Profile Picture place Holder
 
 
