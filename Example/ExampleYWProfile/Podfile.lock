@@ -1,0 +1,16 @@
+PODS:
+  - YWNamePlaceholder (0.1)
+
+DEPENDENCIES:
+  - YWNamePlaceholder (from `~/Documents/Github/YWNamePlaceholder`)
+
+EXTERNAL SOURCES:
+  YWNamePlaceholder:
+    :path: "~/Documents/Github/YWNamePlaceholder"
+
+SPEC CHECKSUMS:
+  YWNamePlaceholder: 4ef048d06eca62a2a0d2581144019da90f6b065d
+
+PODFILE CHECKSUM: '099e70268e8db467508e0ad7e23d13f4330e1e5d'
+
+COCOAPODS: 1.1.1

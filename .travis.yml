@@ -1,0 +1,4 @@
+language: swift
+os: osx
+xcode_project: YWNamePlaceHolder.xcodeproj
+xcode_scheme: YWTopInputFieldTests

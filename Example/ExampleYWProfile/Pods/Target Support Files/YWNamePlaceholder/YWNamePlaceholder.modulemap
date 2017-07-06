@@ -1,0 +1,6 @@
+framework module YWNamePlaceholder {
+  umbrella header "YWNamePlaceholder-umbrella.h"
+
+  export *
+  module * { export * }
+}
