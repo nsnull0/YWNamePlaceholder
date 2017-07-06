@@ -1,5 +1,5 @@
 # YWNamePlaceHolder
-
+[![CI Status](https://travis-ci.org/nsnull0/YWNamePlaceholder.svg?branch=master)](https://travis-ci.org/nsnull0/YWNamePlaceholder)
 [![Version](https://img.shields.io/cocoapods/v/YWNamePlaceholder.svg?style=flat)](https://cocoapods.org/pods/YWNamePlaceholder)
 [![License](https://img.shields.io/cocoapods/l/YWNamePlaceholder.svg?style=flat)](https://cocoapods.org/pods/YWNamePlaceholder)
 [![Platform](https://img.shields.io/cocoapods/p/YWNamePlaceholder.svg?style=flat)](https://cocoapods.org/pods/YWNamePlaceholder)
