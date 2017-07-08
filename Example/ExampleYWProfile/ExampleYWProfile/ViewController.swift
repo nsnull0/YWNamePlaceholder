@@ -20,7 +20,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
+        let namePlaceHolder:YWNamePlaceHolder = YWNamePlaceHolder(originLocation: CGPoint(x: 0, y:0), _withSize: 60, _yourPlaceholder: "", _fontPlaceHolder: UIFont.boldSystemFont(ofSize: 10))
         
+        namePlaceHolder.debugListFontDevice()
         
         
         
@@ -45,7 +47,16 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: "namePlaceHolderList")
         
         cell!.textLabel!.text = nameList[indexPath.row]
-        cell!.accessoryView = YWNamePlaceHolder(originLocation: CGPoint(x: 0, y: 0), _withSize: 50, _yourPlaceholder: nameList[indexPath.row], _fontPlaceHolder: UIFont.boldSystemFont(ofSize: 14.0))
+        
+        let namePlaceHolder:YWNamePlaceHolder = YWNamePlaceHolder(originLocation: CGPoint(x: 0, y: 0), _withSize: 50, _yourPlaceholder: nameList[indexPath.row], _fontPlaceHolder: UIFont.boldSystemFont(ofSize: 14.0))
+        cell!.accessoryView = namePlaceHolder
+        
+        if indexPath.row == 6 {
+            namePlaceHolder.setColor(_textColor: .black, _contentColor: .yellow)
+        }else if (indexPath.row == 5){
+            namePlaceHolder.setFont(_textFont: UIFont.init(name: "DamascusBold", size: 10)!)
+            namePlaceHolder.setFontSize(_staticFontSize: 8.0)
+        }
         
         return cell!
         

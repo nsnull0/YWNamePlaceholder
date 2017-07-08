@@ -19,6 +19,12 @@ extension UILabel {
             let stringSplit = newValue.components(separatedBy: " ")
             
             var strResult = ""
+            
+            guard stringSplit.count > 1 else {
+                return
+            }
+            
+            
             for str in stringSplit{
                 let strProcess = "\(str.characters.first!)"
                 
@@ -40,6 +46,16 @@ extension UILabel {
         }
         get {
             return self.font
+        }
+    }
+    
+    var staticFont:CGFloat{
+        set{
+            self.font = self.font.withSize(newValue)
+        }
+        
+        get{
+            return self.font.pointSize
         }
     }
 }
