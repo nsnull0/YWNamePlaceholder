@@ -42,10 +42,42 @@ $ pod install
 YWNamePlaceHolder is UIView descent
 ```swift
 
+//initiate with default length characters based on text received
 let yourProfileContainer:YWNamePlaceHolder = YWNamePlaceHolder(originLocation: <CGPoint> ,
 _withSize: <CGFloat> ,
 _yourPlaceholder :<String> ,
 _fontPlaceHolder: <UIFont>)
+
+
+//initiate with your preferred length of characters
+let yourProfileContainer:YWNamePlaceHolder = YWNamePlaceHolder(originLocation: <CGPoint> ,
+_withSize: <CGFloat> ,
+_yourPlaceholder :<String> ,
+_fontPlaceHolder: <UIFont>,
+_constraintTextResultCount: <Int>)
+
+```
+
+## Functionality
+```swift
+
+func setFont(UIFont)
+
+/*
+TextColor: setting the text profile color
+ContentColor: setting the circle background content
+*/
+func setColor(TextColor<UIColor>, ContentColor<UIColor>)
+
+/*
+fontSize: setting the text size spesificly and static
+*/
+func setFontSize(fontSize<CGFloat>)
+
+/*
+to list font that used in the device
+*/
+func debugListFontDevice() -> Array<String>
 
 ```
 

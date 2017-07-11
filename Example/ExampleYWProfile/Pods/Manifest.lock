@@ -1,5 +1,5 @@
 PODS:
-  - YWNamePlaceholder (0.1)
+  - YWNamePlaceholder (1.2)
 
 DEPENDENCIES:
   - YWNamePlaceholder (from `~/Documents/Github/YWNamePlaceholder`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "~/Documents/Github/YWNamePlaceholder"
 
 SPEC CHECKSUMS:
-  YWNamePlaceholder: 4ef048d06eca62a2a0d2581144019da90f6b065d
+  YWNamePlaceholder: d086df98e3e52d4af0219689d55b1ec2623881ad
 
 PODFILE CHECKSUM: '099e70268e8db467508e0ad7e23d13f4330e1e5d'
 

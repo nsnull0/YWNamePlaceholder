@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		01D297621766D2DB8C9704DD7AF0F47C /* Pods-ExampleYWProfileTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC17B1D428C22E2D5C91FA71407E36F /* Pods-ExampleYWProfileTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16D64FE7DAEF7DAD727C01CB3D0FD111 /* UILabelEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39BB5004A23A20BDB78F29CB0EFAFD3 /* UILabelEx.swift */; };
+		1463460748A68F15321A31C7682294A9 /* UILabelEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D034AF3E4BBE757AB86222844413648 /* UILabelEx.swift */; };
+		1912E9FC4719EA71466692AD778C6042 /* UIViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C94C177CFA11418F10F8EC5598A99D /* UIViewEx.swift */; };
 		2B8447273740461F1053E257C206F878 /* Pods-ExampleYWProfileTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 671F573D036570EDF31FEA27BC4510D3 /* Pods-ExampleYWProfileTests-dummy.m */; };
 		36936301ED151337229E5B8FDFC5B6FA /* Pods-ExampleYWProfile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA94A245794F8BEBE31CE4DBD6C6133 /* Pods-ExampleYWProfile-dummy.m */; };
 		3BF0C088A5ED6FFA1FABAAE33EB5146A /* Pods-ExampleYWProfile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0CAB5D479D9E27DB5736BF352B9409 /* Pods-ExampleYWProfile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4967F3AFA3902147D7F43A00C262861E /* YWNamePlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92CCBF99543ABCF52D75999C93FB081 /* YWNamePlaceHolder.swift */; };
+		58ABCC974763C7F4304ABA11E079C71C /* YWNamePlaceholder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033664198B68CF77DFD66359363FC52 /* YWNamePlaceholder-dummy.m */; };
 		58AEC123A765CAAF5A88CAA660AA9D63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		664B0B543D91736876FED7D37F15C27E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		8205F8D689B92E02680482CC9BA4A62B /* Pods-ExampleYWProfileUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6F916A59BA616FA2958D7C75DC53C21 /* Pods-ExampleYWProfileUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,9 +21,9 @@
 		ABAE0E534B56D5A23D864611C67C0469 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		B07B30EDE32708F895445337A0F6B8D1 /* YWNamePlaceholder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C916332671225186F8A66A9074243A /* YWNamePlaceholder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EC6DBC9EBE914D30555D9ECF3832B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		BB45EA845489811618FFA310913F07CE /* UIViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2C6838C079239BEE04E263ACBB7539 /* UIViewEx.swift */; };
 		C2F9D31E6BA6D870D608268863880707 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		F619E7A120745074C913A89741B89614 /* YWNamePlaceholder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3033664198B68CF77DFD66359363FC52 /* YWNamePlaceholder-dummy.m */; };
+		ED0BF9E71C057B2177F84904C5712B23 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2206C1BFBD250E35874FBE35BFC83 /* StringEx.swift */; };
+		FC262B6B64144365FADCC7457E103DE4 /* YWNamePlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC5063EAACFD920B820D46C2A188E1 /* YWNamePlaceHolder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		04E2E51DC80183B6B124C6728F6038DE /* Pods-ExampleYWProfileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleYWProfileUITests.release.xcconfig"; sourceTree = "<group>"; };
-		0B2C6838C079239BEE04E263ACBB7539 /* UIViewEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewEx.swift; sourceTree = "<group>"; };
 		0BE6F669DD966AF0D5FB4C8B9CE40192 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1709A2E084803A545D30993AC91B0F8C /* YWNamePlaceholder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YWNamePlaceholder-prefix.pch"; sourceTree = "<group>"; };
 		225465CEF917E8265F53874AC3726095 /* YWNamePlaceholder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YWNamePlaceholder.modulemap; sourceTree = "<group>"; };
@@ -47,6 +47,7 @@
 		2B9E05A682A5B3B84A5668A76E107FD4 /* Pods-ExampleYWProfile-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleYWProfile-resources.sh"; sourceTree = "<group>"; };
 		2BC17B1D428C22E2D5C91FA71407E36F /* Pods-ExampleYWProfileTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleYWProfileTests-umbrella.h"; sourceTree = "<group>"; };
 		3033664198B68CF77DFD66359363FC52 /* YWNamePlaceholder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YWNamePlaceholder-dummy.m"; sourceTree = "<group>"; };
+		31C94C177CFA11418F10F8EC5598A99D /* UIViewEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewEx.swift; sourceTree = "<group>"; };
 		34820B8AE3F39EB953B83F667609A64C /* Pods-ExampleYWProfileUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleYWProfileUITests-resources.sh"; sourceTree = "<group>"; };
 		35D548ACFD536D5C0639EFEEDCC21188 /* Pods-ExampleYWProfileUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleYWProfileUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		496433D52ECA0B135EE96696D8077F88 /* Pods-ExampleYWProfile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleYWProfile.debug.xcconfig"; sourceTree = "<group>"; };
@@ -60,16 +61,17 @@
 		6BA94A245794F8BEBE31CE4DBD6C6133 /* Pods-ExampleYWProfile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleYWProfile-dummy.m"; sourceTree = "<group>"; };
 		7198A7D8C051CBD38FFAC6556A21F468 /* YWNamePlaceholder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWNamePlaceholder.xcconfig; sourceTree = "<group>"; };
 		724EB2D8FF0836BCB808FBD3AEA52F7C /* Pods-ExampleYWProfileTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleYWProfileTests-resources.sh"; sourceTree = "<group>"; };
+		7D034AF3E4BBE757AB86222844413648 /* UILabelEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UILabelEx.swift; sourceTree = "<group>"; };
 		7DE0306994C7EE446F90A4E012846ED7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7F0CAB5D479D9E27DB5736BF352B9409 /* Pods-ExampleYWProfile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleYWProfile-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6F916A59BA616FA2958D7C75DC53C21 /* Pods-ExampleYWProfileUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleYWProfileUITests-umbrella.h"; sourceTree = "<group>"; };
 		A8E17BF892522F1AF04216B52D53D344 /* Pods-ExampleYWProfile-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleYWProfile-frameworks.sh"; sourceTree = "<group>"; };
-		A92CCBF99543ABCF52D75999C93FB081 /* YWNamePlaceHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YWNamePlaceHolder.swift; sourceTree = "<group>"; };
 		A9D0E93272F8256C809CD65C7C278695 /* Pods-ExampleYWProfileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleYWProfileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B599E50AB39707FDA52A1EC33F968ABB /* Pods-ExampleYWProfileUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ExampleYWProfileUITests.modulemap"; sourceTree = "<group>"; };
 		C62423387A75FC88EEE7D4FEE72C9A2E /* Pods-ExampleYWProfileUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleYWProfileUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C6DC5063EAACFD920B820D46C2A188E1 /* YWNamePlaceHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YWNamePlaceHolder.swift; sourceTree = "<group>"; };
 		CCABE06007244062ED847AE6F37802FE /* Pods-ExampleYWProfileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleYWProfileTests.release.xcconfig"; sourceTree = "<group>"; };
 		D918E289E5B2E247DB1B720498A005ED /* Pods_ExampleYWProfile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleYWProfile.framework; path = "Pods-ExampleYWProfile.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D987E21727D8392AFFAD852AAD70F1C0 /* Pods-ExampleYWProfileTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleYWProfileTests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -78,8 +80,8 @@
 		DD55C994789FE57652AF0BEF26EAAB5E /* Pods_ExampleYWProfileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExampleYWProfileUITests.framework; path = "Pods-ExampleYWProfileUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F7B8F5855804C7FB03BDAB63937DE5 /* Pods-ExampleYWProfileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleYWProfileUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E16E71F36AC10DD6E48AC7D0D5A6AE78 /* Pods-ExampleYWProfileUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleYWProfileUITests-dummy.m"; sourceTree = "<group>"; };
-		E39BB5004A23A20BDB78F29CB0EFAFD3 /* UILabelEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UILabelEx.swift; sourceTree = "<group>"; };
 		E5C916332671225186F8A66A9074243A /* YWNamePlaceholder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YWNamePlaceholder-umbrella.h"; sourceTree = "<group>"; };
+		E8F2206C1BFBD250E35874FBE35BFC83 /* StringEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
 		EF9D994A3BDFEAC1136E750FF3582D14 /* Pods-ExampleYWProfileTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleYWProfileTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F712D01491E0F163A7652C07448DDAFB /* Pods-ExampleYWProfile-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleYWProfile-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,16 +141,6 @@
 			path = "Target Support Files/Pods-ExampleYWProfileUITests";
 			sourceTree = "<group>";
 		};
-		420C7D5C14B2BBB4ADDF5514C574E560 /* ClassModifier */ = {
-			isa = PBXGroup;
-			children = (
-				E39BB5004A23A20BDB78F29CB0EFAFD3 /* UILabelEx.swift */,
-				0B2C6838C079239BEE04E263ACBB7539 /* UIViewEx.swift */,
-			);
-			name = ClassModifier;
-			path = ClassModifier;
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,25 +149,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		472D84A8D9F4E681F535F50FC39B59C3 /* YWNamePlaceholder */ = {
-			isa = PBXGroup;
-			children = (
-				420C7D5C14B2BBB4ADDF5514C574E560 /* ClassModifier */,
-				85318A9929551A02913214FD29120E59 /* ClassResources */,
-			);
-			name = YWNamePlaceholder;
-			path = YWNamePlaceholder;
-			sourceTree = "<group>";
-		};
 		509BBBBA230FFF8086D606B729EB3856 /* YWNamePlaceholder */ = {
 			isa = PBXGroup;
 			children = (
 				A4DEB6F25EB0CDF24981B1A3872A9C63 /* Support Files */,
-				472D84A8D9F4E681F535F50FC39B59C3 /* YWNamePlaceholder */,
+				A686AD1DD1E605F94D9C21652205B079 /* YWNamePlaceholder */,
 			);
 			name = YWNamePlaceholder;
 			path = /Users/yosephwijaya/Documents/Github/YWNamePlaceholder;
 			sourceTree = "<absolute>";
+		};
+		51E6587B9AE568C311B42E67CE9B177A /* ClassModifier */ = {
+			isa = PBXGroup;
+			children = (
+				E8F2206C1BFBD250E35874FBE35BFC83 /* StringEx.swift */,
+				7D034AF3E4BBE757AB86222844413648 /* UILabelEx.swift */,
+				31C94C177CFA11418F10F8EC5598A99D /* UIViewEx.swift */,
+			);
+			name = ClassModifier;
+			path = ClassModifier;
+			sourceTree = "<group>";
 		};
 		64725611884F93BED8D125F9226A854A /* Pods-ExampleYWProfileTests */ = {
 			isa = PBXGroup;
@@ -235,15 +228,6 @@
 			path = "Target Support Files/Pods-ExampleYWProfile";
 			sourceTree = "<group>";
 		};
-		85318A9929551A02913214FD29120E59 /* ClassResources */ = {
-			isa = PBXGroup;
-			children = (
-				A92CCBF99543ABCF52D75999C93FB081 /* YWNamePlaceHolder.swift */,
-			);
-			name = ClassResources;
-			path = ClassResources;
-			sourceTree = "<group>";
-		};
 		989E99240DAEBFCA12D572C7562E1309 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +252,16 @@
 			path = "../../GitHub/YWNamePlaceholder/Example/ExampleYWProfile/Pods/Target Support Files/YWNamePlaceholder";
 			sourceTree = "<group>";
 		};
+		A686AD1DD1E605F94D9C21652205B079 /* YWNamePlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				51E6587B9AE568C311B42E67CE9B177A /* ClassModifier */,
+				EBB9B50D855BFD831E25EAF0392FF53E /* ClassResources */,
+			);
+			name = YWNamePlaceholder;
+			path = YWNamePlaceholder;
+			sourceTree = "<group>";
+		};
 		D00B772238A6788D7D6D7BD8067C85F2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,6 +277,15 @@
 				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		EBB9B50D855BFD831E25EAF0392FF53E /* ClassResources */ = {
+			isa = PBXGroup;
+			children = (
+				C6DC5063EAACFD920B820D46C2A188E1 /* YWNamePlaceHolder.swift */,
+			);
+			name = ClassResources;
+			path = ClassResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,7 +347,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE4651B1923AA534FF6BF345641683F8 /* Build configuration list for PBXNativeTarget "YWNamePlaceholder" */;
 			buildPhases = (
-				3E33929D7E97D1F32849778693CD823D /* Sources */,
+				8ABDD2C81B44F0D12AB3930736B24AF9 /* Sources */,
 				9631571B0DEB05EDE473E407C2CF48A6 /* Frameworks */,
 				4D812F3C23437A8A63973CA896928CB8 /* Headers */,
 			);
@@ -430,14 +433,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E33929D7E97D1F32849778693CD823D /* Sources */ = {
+		8ABDD2C81B44F0D12AB3930736B24AF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16D64FE7DAEF7DAD727C01CB3D0FD111 /* UILabelEx.swift in Sources */,
-				BB45EA845489811618FFA310913F07CE /* UIViewEx.swift in Sources */,
-				F619E7A120745074C913A89741B89614 /* YWNamePlaceholder-dummy.m in Sources */,
-				4967F3AFA3902147D7F43A00C262861E /* YWNamePlaceHolder.swift in Sources */,
+				ED0BF9E71C057B2177F84904C5712B23 /* StringEx.swift in Sources */,
+				1463460748A68F15321A31C7682294A9 /* UILabelEx.swift in Sources */,
+				1912E9FC4719EA71466692AD778C6042 /* UIViewEx.swift in Sources */,
+				58ABCC974763C7F4304ABA11E079C71C /* YWNamePlaceholder-dummy.m in Sources */,
+				FC262B6B64144365FADCC7457E103DE4 /* YWNamePlaceHolder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         
         let namePlaceHolder:YWNamePlaceHolder = YWNamePlaceHolder(originLocation: CGPoint(x: 0, y:0), _withSize: 60, _yourPlaceholder: "", _fontPlaceHolder: UIFont.boldSystemFont(ofSize: 10))
         
-        namePlaceHolder.debugListFontDevice()
+        let _ = namePlaceHolder.debugListFontDevice()
         
         
         
@@ -48,14 +48,29 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
         
         cell!.textLabel!.text = nameList[indexPath.row]
         
-        let namePlaceHolder:YWNamePlaceHolder = YWNamePlaceHolder(originLocation: CGPoint(x: 0, y: 0), _withSize: 50, _yourPlaceholder: nameList[indexPath.row], _fontPlaceHolder: UIFont.boldSystemFont(ofSize: 14.0))
-        cell!.accessoryView = namePlaceHolder
+        var namePlaceHolder:YWNamePlaceHolder?
+        
+        
+        if indexPath.row == 4 {
+            namePlaceHolder = YWNamePlaceHolder(originLocation: CGPoint(x: 0, y: 0), _withSize: 50, _yourPlaceholder: nameList[indexPath.row], _fontPlaceHolder: UIFont.boldSystemFont(ofSize: 14.0), _constraintTextResultCount: 1)
+            cell!.accessoryView = namePlaceHolder
+            
+            
+            
+        }else{
+            namePlaceHolder = YWNamePlaceHolder(originLocation: CGPoint(x: 0, y: 0), _withSize: 50, _yourPlaceholder: nameList[indexPath.row], _fontPlaceHolder: UIFont.boldSystemFont(ofSize: 14.0))
+            cell!.accessoryView = namePlaceHolder
+            
+            
+        }
+        
+        
         
         if indexPath.row == 6 {
-            namePlaceHolder.setColor(_textColor: .black, _contentColor: .yellow)
+            namePlaceHolder!.setColor(_textColor: .black, _contentColor: .yellow)
         }else if (indexPath.row == 5){
-            namePlaceHolder.setFont(_textFont: UIFont.init(name: "DamascusBold", size: 10)!)
-            namePlaceHolder.setFontSize(_staticFontSize: 8.0)
+            namePlaceHolder!.setFont(_textFont: UIFont.init(name: "DamascusBold", size: 10)!)
+            namePlaceHolder!.setFontSize(_staticFontSize: 8.0)
         }
         
         return cell!
