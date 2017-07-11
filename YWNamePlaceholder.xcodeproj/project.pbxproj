@@ -12,6 +12,7 @@
 		C16E77641F0A7F8400359363 /* YWNamePlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16E77631F0A7F8400359363 /* YWNamePlaceHolder.swift */; };
 		C16E776B1F0A937E00359363 /* UIViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16E776A1F0A937E00359363 /* UIViewEx.swift */; };
 		C16E77A91F0BFCED00359363 /* UILabelEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16E77A81F0BFCED00359363 /* UILabelEx.swift */; };
+		C1D314351F149AF300DBA991 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D314341F149AF300DBA991 /* StringEx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C16E77A61F0A9D2800359363 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		C16E77A71F0A9E2A00359363 /* YWNamePlaceholder.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = YWNamePlaceholder.podspec; sourceTree = "<group>"; };
 		C16E77A81F0BFCED00359363 /* UILabelEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UILabelEx.swift; path = ClassModifier/UILabelEx.swift; sourceTree = "<group>"; };
+		C1D314341F149AF300DBA991 /* StringEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringEx.swift; path = ClassModifier/StringEx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			children = (
 				C16E776A1F0A937E00359363 /* UIViewEx.swift */,
 				C16E77A81F0BFCED00359363 /* UILabelEx.swift */,
+				C1D314341F149AF300DBA991 /* StringEx.swift */,
 			);
 			name = ClassModifier;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C16E77641F0A7F8400359363 /* YWNamePlaceHolder.swift in Sources */,
+				C1D314351F149AF300DBA991 /* StringEx.swift in Sources */,
 				C16E77A91F0BFCED00359363 /* UILabelEx.swift in Sources */,
 				C16E776B1F0A937E00359363 /* UIViewEx.swift in Sources */,
 			);

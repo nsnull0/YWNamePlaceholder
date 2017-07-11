@@ -27,6 +27,12 @@ public class YWNamePlaceHolder: UIView {
         setupProperty(str: str, font: font)
     }
     
+    public convenience init(originLocation: CGPoint,_withSize size: CGFloat,_yourPlaceholder str:String,_fontPlaceHolder font:UIFont,_constraintTextResultCount count:Int){
+        self.init(originLocation: originLocation, _withSize: size, _yourPlaceholder: str, _fontPlaceHolder: font)
+        textTitle.setTextCountConstraint(count: count)
+    }
+    
+    
     func setupProperty(str:String, font:UIFont) {
         
         contentContainer = UIView(frame: CGRect(x: 4, y: 4, width: self.bounds.size.width - 8, height: self.bounds.size.height - 8))
@@ -55,18 +61,22 @@ public class YWNamePlaceHolder: UIView {
     }
     
     public func setFontSize(_staticFontSize size:CGFloat){
-        textTitle.staticFont = size
+        textTitle.staticFontSize = size
     }
     
-    public func debugListFontDevice(){
+    public func debugListFontDevice() -> Array<String>{
         let fontFamilyNames = UIFont.familyNames
+        var resultFamily = Array<String>()
         for familyName in fontFamilyNames {
             print("------------------------------")
             print("Font Family Name = [\(familyName)]")
             let names = UIFont.fontNames(forFamilyName: familyName)
             print("Font Names = [\(names)]")
+            resultFamily.append(familyName)
         }
+        return resultFamily
     }
+    
     
     public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)

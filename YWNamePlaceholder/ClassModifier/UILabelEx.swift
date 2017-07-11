@@ -24,7 +24,6 @@ extension UILabel {
                 return
             }
             
-            
             for str in stringSplit{
                 let strProcess = "\(str.characters.first!)"
                 
@@ -40,6 +39,8 @@ extension UILabel {
         }
     }
     
+   
+    
     var setAutoFont:UIFont{
         set {
             self.font = newValue.withSize(sqrt(pow(self.bounds.size.width, 2.0)/2))
@@ -49,7 +50,7 @@ extension UILabel {
         }
     }
     
-    var staticFont:CGFloat{
+    var staticFontSize:CGFloat{
         set{
             self.font = self.font.withSize(newValue)
         }
@@ -58,4 +59,23 @@ extension UILabel {
             return self.font.pointSize
         }
     }
+    
+    func setTextCountConstraint(count:Int) {
+        guard self.text!.characters.count > 1 else {
+            print("constraint count exceeded character 1")
+            return
+        }
+        guard self.text!.characters.count >= count else {
+            print("constraint count exceeded character 2")
+            return
+        }
+        
+        var result:String = "\(self.text!.characters.first!)"
+        result = "\(result)\(self.text!.getStringFromCustomRange(_startIndex: self.text!.characters.count - (count - 1), _countLength: count-1))"
+        
+        
+        
+        self.text = result
+    }
+    
 }
