@@ -11,7 +11,7 @@ Profile Picture place Holder
 #### ⚠️ **This Library only Available to Swift > 3.0** ⚠️
 
 ## Screenshot V1.1
-![Demo](https://ibb.co/mvLxcv)
+![Demo](http://imgur.com/qcgvVPE)
 
 ## Installation
 
