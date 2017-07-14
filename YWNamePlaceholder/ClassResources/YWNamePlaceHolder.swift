@@ -77,6 +77,25 @@ public class YWNamePlaceHolder: UIView {
         return resultFamily
     }
     
+    public func setUpdate(_text str:String, _textColor color:UIColor, _contentColor color2:UIColor){
+        textTitle.asTextTitle = str
+        setColor(_textColor: color, _contentColor: color2)
+    }
+    
+    public func setUpdate(_text str:String, _textColor color:UIColor, _contentColor color2:UIColor, _staticFontSize size:CGFloat?){
+        textTitle.asTextTitle = str
+        setColor(_textColor: color, _contentColor: color2)
+        
+        guard size != nil else {
+            return
+        }
+        setFontSize(_staticFontSize: size!)
+    }
+    
+    public func setUpdateTextLength(_count length:Int){
+        textTitle.setTextCountConstraint(count: length)
+    }
+    
     
     public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)

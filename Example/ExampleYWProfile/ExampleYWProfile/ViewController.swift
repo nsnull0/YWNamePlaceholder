@@ -57,6 +57,17 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
             
             
             
+        }else if indexPath.row == 3{
+            namePlaceHolder = YWNamePlaceHolder(originLocation: CGPoint(x: 0, y: 0), _withSize: 50, _yourPlaceholder: nameList[indexPath.row], _fontPlaceHolder: UIFont.boldSystemFont(ofSize: 14.0))
+            cell!.accessoryView = namePlaceHolder
+            
+            namePlaceHolder!.setUpdateTextLength(_count: 1)
+            
+        }else if indexPath.row == 2 {
+            namePlaceHolder = YWNamePlaceHolder(originLocation: CGPoint(x: 0, y: 0), _withSize: 50, _yourPlaceholder: nameList[indexPath.row], _fontPlaceHolder: UIFont.boldSystemFont(ofSize: 14.0))
+            cell!.accessoryView = namePlaceHolder
+            
+            namePlaceHolder!.setUpdate(_text: "Haha You", _textColor: UIColor.lightText, _contentColor: UIColor.blue, _staticFontSize: nil)
         }else{
             namePlaceHolder = YWNamePlaceHolder(originLocation: CGPoint(x: 0, y: 0), _withSize: 50, _yourPlaceholder: nameList[indexPath.row], _fontPlaceHolder: UIFont.boldSystemFont(ofSize: 14.0))
             cell!.accessoryView = namePlaceHolder

@@ -79,6 +79,18 @@ to list font that used in the device
 */
 func debugListFontDevice() -> Array<String>
 
+/*
+change text and color to corresponding placeholder which is already initialize
+size param is optional
+*/
+func setUpdate(str<String>, color<UIColor>, contentColor<UIColor>)
+func setUpdate(str<String>, color<UIColor>, contentColor<UIColor>, size<CGFloat?>)
+
+/*
+change your placeholder text with your preferred length of characters which is already initialize
+*/
+setUpdateTextLength(count<Int>)
+
 ```
 
 see Example project for more detail in initialization
