@@ -10,8 +10,8 @@ Profile Picture place Holder
 ## Availability
 #### ⚠️ **This Library only Available to Swift > 3.0** ⚠️
 
-## Screenshot V1.1
-![Demo](http://imgur.com/qcgvVPE)
+## Screenshot
+<img src="https://raw.github.com/nsnull0/YWNamePlaceholder/master/ss_complete.png" alt="iPhone6s" width="414" />
 
 ## Installation
 
